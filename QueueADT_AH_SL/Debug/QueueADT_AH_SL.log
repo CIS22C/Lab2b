@@ -1,0 +1,79 @@
+﻿  main.cpp
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\queue.h(20): error C2061: syntax error: identifier 'newEntry'
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\queue.h(32): note: see reference to class template instantiation 'Queue<T>' being compiled
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\queue.h(53): error C2065: 'newEntry': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\queue.h(53): error C2470: 'Queue<T>::enqueue': looks like a function definition, but there is no parameter list; skipping apparent body
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\queue.h(53): error C2072: 'Queue<T>::enqueue': initialization of a function
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\queue.h(54): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(42): error C2679: binary '=': no operator found which takes a right-hand operand of type 'Queue<int> *' (or there is no acceptable conversion)
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\queue.h(32): note: could be 'Queue<int> &Queue<int>::operator =(const Queue<int> &)'
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(42): note: while trying to match the argument list '(Queue<int>, Queue<int> *)'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(97): error C2065: 'intQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(97): error C2227: left of '->enqueue' must point to class/struct/union/generic type
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(97): note: type is 'unknown-type'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(98): error C2065: 'intQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(106): error C2065: 'intQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(106): error C2227: left of '->empty' must point to class/struct/union/generic type
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(106): note: type is 'unknown-type'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(113): error C2065: 'intQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(113): error C2227: left of '->dequeue' must point to class/struct/union/generic type
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(113): note: type is 'unknown-type'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(114): error C2065: 'intQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(123): error C2065: 'intQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(123): error C2227: left of '->clear' must point to class/struct/union/generic type
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(123): note: type is 'unknown-type'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(124): error C2065: 'intQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(133): error C2079: 'read_input_file' uses undefined class 'std::basic_ifstream<char,std::char_traits<char>>'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(133): error C2440: 'initializing': cannot convert from 'const char [9]' to 'int'
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(133): note: There is no context in which this conversion is possible
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\string(134): note: see declaration of 'std::operator >>'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\string(20): note: see declaration of 'std::operator >>'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Ty &&)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\istream(1092): note: see declaration of 'std::operator >>'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)': could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\istream(1082): note: see declaration of 'std::operator >>'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)': could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\istream(1075): note: see declaration of 'std::operator >>'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)': could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\istream(1068): note: see declaration of 'std::operator >>'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)': could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\istream(1061): note: see declaration of 'std::operator >>'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\istream(1036): note: see declaration of 'std::operator >>'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\istream(995): note: see declaration of 'std::operator >>'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(138): error C2677: binary '>>': no global operator found which takes type 'std::string' (or there is no acceptable conversion)
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(140): error C2065: 'stringQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(140): error C2227: left of '->enqueue' must point to class/struct/union/generic type
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(140): note: type is 'unknown-type'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(142): error C2228: left of '.close' must have class/struct/union
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(142): note: type is 'int'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(143): error C2065: 'stringQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(152): error C2227: left of '->empty' must point to class/struct/union/generic type
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(157): error C2065: 'stringQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(157): error C2227: left of '->dequeue' must point to class/struct/union/generic type
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(157): note: type is 'unknown-type'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(158): error C2065: 'stringQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(166): error C2065: 'stringQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(166): error C2227: left of '->clear' must point to class/struct/union/generic type
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(166): note: type is 'unknown-type'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(167): error C2065: 'stackString': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(176): error C2065: 'currencyQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(176): error C2227: left of '->enqueue' must point to class/struct/union/generic type
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(176): note: type is 'unknown-type'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(178): error C2065: 'CurrencyQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(186): error C2065: 'currencyQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(186): error C2227: left of '->empty' must point to class/struct/union/generic type
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(186): note: type is 'unknown-type'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(192): error C2065: 'currencyQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(192): error C2227: left of '->dequeue' must point to class/struct/union/generic type
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(192): note: type is 'unknown-type'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(193): error C2065: 'currencyQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(204): error C2065: 'currencyQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(204): error C2227: left of '->clear' must point to class/struct/union/generic type
+  c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(204): note: type is 'unknown-type'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(205): error C2065: 'currencyQueue': undeclared identifier
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(259): error C2059: syntax error: '}'
+c:\users\ambrose82\documents\visual studio 2017\projects\queueadt_ah_sl\queueadt_ah_sl\main.cpp(259): error C2143: syntax error: missing ';' before '}'
